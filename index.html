@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Objects & Functions</title>
+
+    <!-- From Below: -->
+    <!-- <script>
+      function hello(firstName, lastName) {
+        return "Howdy " + firstName + " " + lastName;
+      }
+    </script> -->
+
+    <!-- <br/> -->
+
+    <!-- With the function placed in another page, it is referenced With
+    this 'script' and still 'called' below! -->
+
+    <!-- <script src="myscript.js"></script> -->
+  </head>
+  <body>
+    <br />
+    <center>
+      <h1 id="demo">JS Objects & Functions</h1>
+    </center>
+
+    <script>
+      // *Objects(key: value)
+
+      var person = {
+        firstName: "Joe",
+        lastName: "Veller",
+        age: 50,
+        email: "joeveller@gmail.com",
+      };
+
+      document.write(person.firstName);
+      //     <br />;
+      //   document.write(person.lastName);
+      //     <br />;
+      //   document.write(person["email"]);
+      //     <br />;
+      //   document.write(person.email);
+      //     <br />;
+      //   document.write(person.age);
+      //     <br />;
+      //   document.write(person.age + 5);
+
+      // <br/>
+
+      // <br/>
+
+      // *Functions: Only run when they are called:
+
+      //   function hello() {
+      //     return "Hello Joe!";
+      //   }
+
+      //   document.write(hello());
+
+      //   or
+
+      //   function hello() {
+      //     document.write("Howdy Joe!");
+      //   }
+
+      //   hello();
+
+      // <br/>
+
+      // Adding an argument to the function:
+
+      //   function hello(name) {
+      //     return "Hello " + name;
+      //   }
+
+      //   document.write(hello("Tim"));
+
+      //   or
+
+      // Add as mant arguments as you need:
+
+      //   function hello(firstName, lastName) {
+      //     return "Hello " + firstName + " " + lastName;
+      //   }
+
+      //   document.write(hello("Joe", "Veller"));
+
+      //   <br/>
+
+      // If you place the function script in the head,
+      // it is still called in body below: See function in <head> above!
+
+      //   document.write(hello("Joe", "Veller"));
+    </script>
+  </body>
+</html>
