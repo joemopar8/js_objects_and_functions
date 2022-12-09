@@ -1,1 +1,1 @@
-JavaScript Objects and Functions
+JavaScript Objects and Functions Tutorial
